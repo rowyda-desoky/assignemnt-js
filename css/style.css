@@ -1,0 +1,56 @@
+body{
+    background-color: #F7ECDE;
+    font-family: "PT Sans Caption", sans-serif;
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+h2{
+    font-family: "Righteous", sans-serif;
+    /*background-image: linear-gradient( #3DA55C,#B2AC4A);*/
+    color: #78A852;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    left: 0;
+    bottom: 50px;
+    background-color: #fec260;
+    transition: all 30ms;
+    z-index: -1;
+}
+h1::before:hover{
+    height: 25%;
+}
+
+.bookmark{
+    border-style: dotted;
+    border-width: 2px 0px;
+    margin-top: 48px;
+    padding: 24px 16px;
+}
+.form-control:focus {
+    border-color: #d99c39;
+    box-shadow: 0 0 0 .25rem #EBC78F;
+}
+label{
+    font-size: 16px;
+    font-weight: 600;
+    color: 
+    RGB(33, 37, 41);
+}
+.bookmark .btn{
+    background-color: #d1512d;
+}
+.bookmark .btn:hover{
+    background-color:#bb4120 ;
+}
+
